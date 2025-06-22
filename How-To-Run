@@ -1,0 +1,34 @@
+## 5. Dockerized Spring Boot CRUD Service
+
+**Description:**  
+The same CRUD application from Project 4, containerized using Docker.
+
+**Technologies Used:**  
+- Java 17
+- Spring Boot
+- Docker
+
+**Features:**  
+- Packaged as Docker image
+- Can be deployed to Kubernetes or cloud platforms
+
+**How to Run:**  
+1. Build `.jar` using Maven
+2. Build Docker image: `docker build -t employee-crud-app .`
+3. Run container: `docker run -p 8080:8080 employee-crud-app`
+
+---
+
+Prepared by:  
+**Anand Varma**  
+Project Director  
+National Academic Internship Council (NAIC)  
+www.naic-org.site
+"""
+
+# Save the documentation to a file
+doc_path = "/mnt/data/Java_Internship_Project_Documentation.txt"
+with open(doc_path, "w") as f:
+    f.write(documentation)
+
+doc_path
